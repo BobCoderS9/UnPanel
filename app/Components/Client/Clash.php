@@ -36,6 +36,8 @@ class Clash
             'obfsparam' => $server['obfs_param'],
             'protocol' => $server['protocol'],
             'protocolparam' => $server['protocol_param'],
+            'obfs-param' => $server['obfs_param'],
+            'protocol-param' => $server['protocol_param'],
             'udp' => $server['udp'],
         ];
     }
