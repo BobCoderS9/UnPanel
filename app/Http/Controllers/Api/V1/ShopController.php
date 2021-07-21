@@ -1,12 +1,8 @@
 <?php
 
-
 namespace App\Http\Controllers\Api\V1;
 
-
 use App\Components\Helpers;
-use App\Http\Controllers\PaymentController;
-use App\Models\Config;
 use App\Models\Coupon;
 use App\Models\Goods;
 use App\Models\GoodsCategory;
@@ -14,7 +10,6 @@ use App\Models\Invite;
 use App\Models\Order;
 use App\Models\User;
 use App\Models\Verify;
-use App\Models\VerifyCode;
 use App\Notifications\AccountActivation;
 use Hashids\Hashids;
 use Illuminate\Http\Request;
